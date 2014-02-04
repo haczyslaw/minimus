@@ -1,0 +1,45 @@
+GIT
+  remote: git://github.com/norman/unidecoder
+  revision: 94ddc9524dc34c735d06db993437f71cfc9ea5f5
+  specs:
+    unidecoder (1.1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    daemons (1.1.9)
+    dalli (2.7.0)
+    erubis (2.7.0)
+    eventmachine (1.0.3)
+    json (1.8.1)
+    method_source (0.8.2)
+    minitest (4.7.5)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.1.1)
+    slop (3.4.7)
+    thin (1.6.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dalli
+  erubis
+  json
+  minitest
+  pry
+  rack
+  rack-test
+  rake
+  thin
+  unidecoder!
